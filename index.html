@@ -755,7 +755,7 @@
             <div class="nav-links">
                 <a href="#about">О нас</a>
                 <a href="#features">Преимущества</a>
-                <a href="role.html">Система рангов</a>
+                <a href="role/">Система рангов</a>
                 <a href="#join">Вступить</a>
             </div>
         </div>
@@ -777,7 +777,7 @@
                         <path d="M6 3L11 8L6 13"/>
                     </svg>
                 </a>
-                <a href="role.html" class="btn btn-secondary">Система рангов</a>
+                <a href="role/" class="btn btn-secondary">Система рангов</a>
             </div>
 
             <div class="stats">
@@ -1095,7 +1095,7 @@
             <div class="footer-links">
                 <a href="#about">О нас</a>
                 <a href="#features">Преимущества</a>
-                <a href="role.html">Система рангов</a>
+                <a href="role/">Система рангов</a>
                 <a href="#join">Вступить</a>
             </div>
         </div>
@@ -1137,10 +1137,10 @@
         }
 
         // Add transition to all internal links
-        document.querySelectorAll('a[href="role.html"]').forEach(link => {
+        document.querySelectorAll('a[href="role/"]').forEach(link => {
             link.addEventListener('click', (e) => {
                 e.preventDefault();
-                navigateWithTransition('role.html');
+                navigateWithTransition('role/');
             });
         });
 
